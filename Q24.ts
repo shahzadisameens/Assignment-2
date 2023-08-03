@@ -1,0 +1,23 @@
+console.log("Is 'subaru' == 'subaru'? I predict True.");
+console.log('subaru' == 'subaru')
+console.log("Is 'Subaru' == 'subaru'? I predict True.");
+console.log('Subaru'.toLowerCase() == 'subaru'); 
+console.log("Is 10 == 10? I predict True.");
+console.log(10 == 10);
+console.log("Is 10 > 5? I predict True.");
+console.log(10 > 5);
+console.log("Is 10 >= 5? I predict True.");
+console.log(10 >= 5);
+console.log("Is 10 < 15? I predict True.");
+console.log(10 < 15);
+console.log("Is 10 <= 15? I predict True.");
+console.log(10 <= 15);
+console.log("Is (10 == 10) and (10 > 5)? I predict True.");
+console.log((10 == 10) && (10 > 5));
+console.log("Is (10 == 10) or (10 < 5)? I predict True.");
+console.log((10 == 10) || (10 < 5)); 
+const numbers = [10, 20, 30, 40, 50];
+console.log("Is 10 in numbers? I predict True.");
+console.log(10 in numbers);
+console.log("Is 60 in numbers? I predict False.");
+console.log(60 in numbers);
